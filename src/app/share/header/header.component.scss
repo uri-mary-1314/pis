@@ -1,0 +1,45 @@
+@use 'src/styles.scss' as g;
+
+.wrapper {
+    //Display & Box model
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    //Text
+    font-size: 2rem;
+
+    > div {
+        //Display & Box model
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        .logo__img {
+            //Display & Box model
+            height: 64px;
+            width: 64px;
+            margin-right: 8px;
+        }
+    }
+
+    .navbar {
+        .navbar__list {
+            //Display & Box model
+            display: flex;
+            align-items: center;
+
+            li {
+                //Text
+                list-style: none;
+
+                >a {
+                    //Text
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
