@@ -8,7 +8,6 @@ $black-color: #000000;
 $primary-color-1: #000B49;
 $primary-color-2: #9B0000;
 $btn-color: #3D3C98;
-
 * {
     font-size: inherit;
 }
@@ -26,4 +25,7 @@ html, body { height: 100%; }
 body { 
     font-family: Roboto, "Helvetica Neue", sans-serif; 
     font-size: inherit;
+}
+.container-fluid {
+    padding: 10px 20px;
 }
